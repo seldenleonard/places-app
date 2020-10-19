@@ -1,0 +1,7 @@
+# render partial: "place.json.jb", locals: { place: place }
+
+{
+  id: @place.id,
+  name: @place.name,
+  address: @place.address
+}
